@@ -5,9 +5,8 @@
 
 body {
     font-family: FreeSans;
-    width: 100%;
-    height: 100%
-
+    width: 100vw;
+    height: 100%;
 }
 
 .main {
@@ -16,10 +15,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.header {
+    background-image: linear-gradient(to bottom right, #4cdeff, #1a4597);
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.carrot {
+	width: 35px;
+	padding: 5px;
+}
+
 header {
-    padding: 30px;
-    font-size: 2.5rem;
-    
+	font-size: 1.3rem;
+	padding: 3px;
+	font-family: "Bestime";
 }
 
 .post {
@@ -43,7 +55,6 @@ header {
 }
 
 .post>img {
-    padding: 20px;
     width: 100vw;
 }
 
